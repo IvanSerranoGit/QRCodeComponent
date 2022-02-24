@@ -82,4 +82,3 @@ main {
 - Website - [Iván Serrano](https://ivan.serrano.opengala.xyz/)
 - Frontend Mentor - [@IvanSerranoGit](https://www.frontendmentor.io/profile/IvanSerranoGit)
 - Twitter - [@lvanSerrano](https://twitter.com/lvanSerrano)
-
