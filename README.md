@@ -15,26 +15,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./images/Screenshot 2022-02-24 at 15-46-04 QR Code Component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://ivanserranogit.github.io/QRCodeComponent/)
 
 ## My process
 
@@ -45,35 +34,40 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [React](https://reactjs.org/) - JS library (comingsoon)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+In this section i learn use property place-items: center; a property  GRID align items at center
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+    <main class="container">
+        <section class="container_qr">
+            <figure class="qr_container-img">
+                <img class="qr_container-img-item" src="./images/image-qr-code.png" alt="qr-code">
+            </figure>
+            <div class="info_container">
+                <h3 class="info_container-title">Improve your front-end
+                    skills by building projects</h3>
+                <p class="info_container-text">
+                    Scan the QR code to visit Frontend
+                    Mentor and take your coding skills to
+                    the next level
+                </p>
+            </div>
+        </section>
+    </main>
 ```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+main {
+  background-color: var(--Light-bg);
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
