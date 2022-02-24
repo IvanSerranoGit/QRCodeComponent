@@ -19,11 +19,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./images/Screenshot 2022-02-24 at 15-46-04 QR Code Component.png)
+![img](https://github.com/IvanSerranoGit/QRCodeComponent/blob/main/images/Screenshot%202022-02-24%20at%2015-46-04%20QR%20Code%20Component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://ivanserranogit.github.io/QRCodeComponent/)
+- Solution URL: [solution URL](https://ivanserranogit.github.io/QRCodeComponent/)
 
 ## My process
 
